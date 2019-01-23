@@ -1,0 +1,16 @@
+.fm-row-wrapper-4 {	
+	
+	@media screen and (min-width: 568px) {
+		display: flex;
+	}
+}
+
+.fm-text-list {
+	margin: 0;
+}
+
+.fm-text-item {
+	font-family: 'Roboto Regular', 'Helvetica', 'Arial', sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+}

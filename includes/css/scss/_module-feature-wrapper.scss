@@ -1,0 +1,53 @@
+.feature-module-wrapper,
+.feature-module {
+	background-color: white;
+}
+
+.fm-heading {
+	font-size: 46px;
+	line-height: 44px;
+	padding: 64px 0;
+	font-family: 'Breakers Slab Bold', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 34px;
+	line-height: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;	
+
+	@media screen and (min-width: 768px) {
+		font-size: 40px;
+		line-height: 36px;
+	}
+
+	@media screen and (min-width: 1024px) {
+		font-size: 46px;
+		line-height: 44px;
+	}
+}
+
+.fm-overview-text {
+	font-family: 'Roboto Regular', 'Helvetica', 'Arial', sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+	margin: 0 auto 20px auto;
+	max-width: 900px;
+
+	@media screen and (min-width: 768px) {
+		margin-bottom: 64px;
+	}
+
+	@media screen and (min-width: 1024px) {
+		margin-bottom: 64px;
+	}	
+}
+
+.feature-space-top {
+	padding-top: 15px;
+
+	@media screen and (min-width: 768px) {
+		padding-top: 30px;
+	}	
+}

@@ -1,0 +1,55 @@
+header {
+	background-color: black;
+}
+
+body {
+	font-family: 'Trade Gothic', Helvetica, 'Arial', sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.6em;
+	color: black;
+	margin: 0px;
+	-webkit-font-smoothing: antialiased;
+}
+
+img {
+	vertical-align: middle;
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+h4 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: 1.1;
+}
+
+li {
+	font-family: 'Trade Gothic', Helvetica, 'Arial', sans-serif;
+	font-weight: normal;
+}
+
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+	top: -0.5em;
+}
+
+a {
+	color: $light-red;
+	text-decoration: none;
+}
+
+footer {
+	background-color: black;
+}
+
+p {
+	font-family: 'Trade Gothic', Helvetica, 'Arial', sans-serif;
+	font-weight: normal;
+	margin: 0 0 10px;
+}

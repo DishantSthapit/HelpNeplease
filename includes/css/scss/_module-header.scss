@@ -1,0 +1,97 @@
+.header-toolbar-wrapper {
+	background: $dark-grey;	
+	box-shadow: inset 0 -10px 20px 0 rgba(0, 0, 0, 0.7);
+	border-bottom: 1px solid $dark-grey;
+
+	@media screen and (min-width: 768px) {
+		background: $dark-grey;
+		display: flex;
+		font-size: 46px;
+		line-height: 44px;
+		box-shadow: inset 0 -10px 20px 0 rgba(0, 0, 0, 0.7);
+		border-bottom: 1px solid $dark-grey;
+	}
+}
+
+.header-text-wrapper {
+	flex: 2;
+	padding: 14px 0;
+	display: block;
+}
+
+.logo {
+	max-width: 50%;
+	margin-top: 10px;
+
+	@media screen and (min-width: 768px) {
+		max-width: 55%;
+		left: 1.3em;
+		margin: 12px;
+	}
+}
+
+.header-welcome {
+	font-family: 'Breakers Bold', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 22px;
+	text-transform: uppercase;
+	text-align: center;
+	color: $light-grey;
+}
+
+.logo-tagline {
+	font-family: 'Roboto Regular', 'Helvetica', 'Arial', sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	-webkit-font-smoothing: auto;
+	-moz-osx-font-smoothing: inherit;
+	color: #808080;
+	margin: 8px;
+	line-height: 15px;
+	text-align: center;
+}
+
+.header-icon-wrapper {
+	display: flex;
+	margin-top: 20px;
+	align-items: center;
+	justify-content: center;
+
+	@media screen and (min-width: 768px) {
+		display: inline-flex;
+		margin-top: 20px;
+		margin-left: 160px;
+	}
+}
+
+.facebook-icon,
+.twitter-icon,
+.linkedin-icon,
+.youtube-icon,
+.google-plus-icon,
+.instagram-icon {
+	background-image: url(#{$assets-path-root}/RAM_Factory_AU/images/icons_social_sprite.png);
+	background-repeat: no-repeat;
+	text-indent: -10000px;
+	display: block;
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+}
+
+.facebook-icon {
+	background-position: 0px 0px;
+}
+
+.box-header {
+	background-color: $dark-grey;
+	padding: 0 0 0 1.5em;
+}
+
+.instagram-icon {
+	background-position: 0px -250px;
+}
+
+.youtube-icon {
+	background-position: 0px -150px;
+}

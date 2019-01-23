@@ -1,0 +1,77 @@
+.fm-colour-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	@media screen and (min-width: 1024px) {
+		width: 70%;
+	}
+}
+
+.fm-colour-item {
+	width: 30.6666666667%;
+	margin-bottom: 15px;
+}
+
+.fm-colour-item:nth-child(n) {
+	margin-right: 4%;
+}
+
+.fm-colour-item:nth-child(3n) {
+	margin-right: 0;
+}
+
+.fm-colour-swatch {
+	height: 80px;
+}
+
+.fm-colour-text {
+	font-family: 'Roboto Regular', 'Helvetica', 'Arial', sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 3px;
+	margin-bottom: 0;
+}
+
+.fm-colour-bright-white {
+	border: 1px solid $bright-white;
+	background-color: white;
+}
+
+.fm-colour-bright-silver {
+	background-color: $bright-silver;
+}
+
+.fm-colour-max-steel {
+	background-color: $max-steel;
+}
+
+.fm-colour-blue-streak {
+	background-color: $blue-streak;
+}
+
+.fm-colour-true-blue {
+	background-color: $true-blue;
+}
+
+.fm-colour-delmonico-red {
+	background-color: $delmonico-red;
+}
+
+.fm-colour-granite-crystal {
+	background-color: $granite-crystal;
+}
+
+.fm-colour-brilliant-black {
+	background-color: $brilliant-black;
+}
+
+.fm-colour-flame-red {
+	background-color: $flame-red;
+}
+
+.fm-disclaimer-text {
+	font-family: 'Roboto Regular', 'Helvetica', 'Arial', sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+	margin: 15px 0 15px 0;
+}

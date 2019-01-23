@@ -1,0 +1,70 @@
+.header-nav-wrapper {
+	background-color: black;
+}
+
+.nav-header {
+	display: none;
+
+	@media screen and (min-width: 980px) {
+		display: flex;
+		background-color: $mild-grey;
+		justify-content: flex-end;
+	}
+}
+
+.primary-nav-wrapper {
+	margin: 0;
+	display: flex;
+}
+
+.np-list {
+	flex: auto;
+	list-style: none;
+}
+
+.np-link {
+	font-family: 'Breakers Bold', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	display: block;
+	font-size: 13px;
+	color: white;
+	line-height: 60px;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: .25px;
+	text-align: center;
+	padding: 0 40px;
+	border-left: 2px solid black;
+}
+
+.ns-item {
+	display: none;
+}
+
+
+.location-button-wrapper {
+	color: white;
+	border-left: 2px solid black;
+	background-color: $light-red;
+	width: 60px;
+	height: 60px;
+}
+
+.location-icon {
+	background: transparent url(#{$assets-path}/images/icons_all_general_2014.png) no-repeat;
+	background-position: 50% -11300px;
+	height: 60px;
+	margin-top: 5px;
+}
+
+.location-icon-text {
+	line-height: 11px;
+	font-family: 'Breakers Bold', Helvetica, Arial, sans-serif;
+	color: black;
+	text-transform: uppercase;
+	display: block;
+	width: 60px;
+	text-align: center;
+	font-size: 11px;
+	padding-top: 25px;
+}

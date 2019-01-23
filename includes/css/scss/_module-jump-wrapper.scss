@@ -1,0 +1,41 @@
+.nj-model-heading-wrapper {
+	background-color: $mild-grey;
+	padding: 5px 0px;
+}
+
+.nj-mh-text	{
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	color: white;
+}
+
+.nav-jump {
+	background-color: black;
+}
+
+.nj-list {
+	margin: 0;
+	padding: 0;
+}
+
+.nj-item {
+	text-align: center;
+	
+	@media screen and (min-width: 1024px) {
+		list-style: none;
+		float: left;	
+		border: none;
+	}		
+}
+
+.nj-link {
+	font-family: 'Roboto Bold', 'Helvetica', 'Arial', sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: white;
+	display: block;
+	padding: 20px 40px 20px 0;
+}
