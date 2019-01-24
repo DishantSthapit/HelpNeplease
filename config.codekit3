@@ -929,6 +929,26 @@
 		"oAP": "/includes/css/webfonts/TRADE-GOTHIC-LT-1361519976.woff2",
 		"oF": 0
 		},
+	"/includes/js/jquery-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/includes/js/jquery-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/includes/js/jquery.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/includes/js/jquery-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/includes/kit/_body.kit": {
 		"cB": 0,
 		"ft": 2048,
