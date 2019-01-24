@@ -79,8 +79,17 @@
   src: url("https://s3-ap-southeast-2.amazonaws.com/assets.i-motor.com.au/webfonts/goudybookletter1911-digits.eot");
   src: url("https://s3-ap-southeast-2.amazonaws.com/assets.i-motor.com.au/webfonts/goudybookletter1911-digits.eot#iefix") format("embedded-opentype"), url("https://s3-ap-southeast-2.amazonaws.com/assets.i-motor.com.au/webfonts/goudybookletter1911-digits.woff2") format("woff2"), url("https://s3-ap-southeast-2.amazonaws.com/assets.i-motor.com.au/webfonts/goudybookletter1911-digits.woff") format("woff"), url("https://s3-ap-southeast-2.amazonaws.com/assets.i-motor.com.au/webfonts/goudybookletter1911-digits.ttf") format("opentype"), url("https://s3-ap-southeast-2.amazonaws.com/assets.i-motor.com.au/webfonts/goudybookletter1911-digits.svg") format("svg"); }
 
-header {
-  background-color: black; }
+html {
+  margin: 0;
+  padding: 0;
+  background: gray url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  height: 300px;
+  padding-top: 120px;
+  box-sizing: border-box;
+  -webkit-animation: slide 20s linear infinite; }
 
 body {
   font-family: 'Trade Gothic', Helvetica, 'Arial', sans-serif;
@@ -89,7 +98,9 @@ body {
   line-height: 1.6em;
   color: black;
   margin: 0px;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0; }
 
 img {
   vertical-align: middle;
@@ -198,19 +209,6 @@ p {
   color: #fff;
   background-color: #972d18; }
 
-.header-toolbar-wrapper {
-  background: #212121;
-  box-shadow: inset 0 -10px 20px 0 rgba(0, 0, 0, 0.7);
-  border-bottom: 1px solid #212121; }
-  @media screen and (min-width: 768px) {
-    .header-toolbar-wrapper {
-      background: #212121;
-      display: flex;
-      font-size: 46px;
-      line-height: 44px;
-      box-shadow: inset 0 -10px 20px 0 rgba(0, 0, 0, 0.7);
-      border-bottom: 1px solid #212121; } }
-
 .header-text-wrapper {
   flex: 2;
   padding: 14px 0;
@@ -221,9 +219,9 @@ p {
   margin-top: 10px; }
   @media screen and (min-width: 768px) {
     .logo {
-      max-width: 55%;
+      max-width: 100%;
       left: 1.3em;
-      margin: 12px; } }
+      align-items: center; } }
 
 .header-welcome {
   font-family: 'Breakers Bold', Helvetica, Arial, sans-serif;
@@ -663,3 +661,9 @@ p {
   text-indent: 0;
   display: block;
   text-align: center; }
+
+@-webkit-keyframes slide {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: -400px 0; } }

@@ -320,6 +320,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/nepal.png": {
+		"ft": 32768,
+		"iS": 276192,
+		"oA": 0,
+		"oAP": "/images/nepal.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/svg-defs.svg": {
 		"ft": 2097152,
 		"miP": 0,
