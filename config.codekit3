@@ -23,6 +23,17 @@
 		"oAP": "/default.html",
 		"oF": 0
 		},
+	"/images/banner-1.jpg": {
+		"ft": 16384,
+		"iS": 195510,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/banner-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/bubble.png": {
 		"ft": 32768,
 		"iS": 10969,
@@ -351,6 +362,17 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/images/room.jpg": {
+		"ft": 16384,
+		"iS": 1242569,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/room.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/svg-defs.svg": {
