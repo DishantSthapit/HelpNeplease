@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "28905",
 "files": {
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.gitignore",
+		"oF": 0
+		},
 	"/default.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -989,6 +996,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/includes/js/jquery-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/includes/js/main.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/includes/js/main-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
