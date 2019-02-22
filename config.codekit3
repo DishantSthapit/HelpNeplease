@@ -360,6 +360,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/mobile-nav-button.png": {
+		"ft": 32768,
+		"iS": 2082,
+		"oA": 0,
+		"oAP": "/images/mobile-nav-button.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/nepal.png": {
 		"ft": 32768,
 		"iS": 276192,
@@ -996,6 +1007,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/includes/js/jquery-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/includes/js/main-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/includes/js/main-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
